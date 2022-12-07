@@ -55,9 +55,7 @@ public class texteditor extends JFrame implements ActionListener{
                 System.out.println(spinner.getValue());
                 textArea.setFont(new Font(textArea.getFont().getFamily(),Font.PLAIN, (int) spinner.getValue()));
             }
-            //add font color
-            //add autosave
-            //add font size(Bold, Italic)
+            
 
         });
 
